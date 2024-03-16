@@ -1,12 +1,28 @@
 {% schema %}
   {
       "name": "Text With Image",
-    "settings": [{
+    "settings": [
+      {
       "type" : "text",
       "id" : "header",
       "label" : "Header"
-    }],
-    "presets": []
+      },
+      {
+        "type" : "image_picker",
+        "id": "image",
+        "label" : "Image"
+      },
+      {
+        "type" : "richtext",
+        "id" : "content",
+        "label" : "Content"
+      }
+    ],
+    "presets": [
+      {
+        "name" : "Text With Image"
+      }
+    ]
     
   }
 {% endschema %}
