@@ -1,4 +1,6 @@
+<img src="{{ section.settings.image | img_url: "master" }}" alt="{{ section.settings.name }}"width="" height="">
 <h1> {{ section.settings.header }}</h1>
+<div> {{ section.settings.content }}</div>
 {% schema %}
   {
       "name": "Text With Image",
